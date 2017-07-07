@@ -1,6 +1,14 @@
-.defbox {
-  display: none;
-}
 .term{
-  text-decoration: underline;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+}
+.defbox{
+  display: none;
+  background-color: lightblue;
+  border: 5px;
+  border-color: black;
+  padding: 3px;
+  margin: 3px;
+  text-decoration:  none;
 }

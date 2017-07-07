@@ -1,39 +1,39 @@
 $(document).ready(function() {
-  $("#javascript").click(function() {
-        $("#javascript .term").toggle();
-        $("#javascript .defbox").toggle();
+   $("#javascript").click(function() {
+     $("#javascript .term").toggle();
+     $("#javascript .defbox").toggle();
   });
   $("#operator").click(function() {
         $("#operator .term").toggle();
         $("#operator .defbox").toggle();
   });
 
-  $("#Variables").click(function() {
-        $("#Variables .term").toggle();
-        $("#Variables .defbox").toggle();
+  $("#variables").click(function() {
+        $("#variables .term").toggle();
+        $("#variables .defbox").toggle();
   });
 
-  $("#Variable-naming-conventions").click(function() {
-        $("#Variable-naming-conventions .term").toggle();
-        $("#Variable-naming-conventions ul.defbox > li").toggle();
+  $("#varNamingConventions").click(function() {
+        $("#varNamingConventions .term").toggle();
+        $("#varNamingConventions .defbox").toggle();
   });
 
-  $("#Functions").click(function() {
-        $("#Functions .term").toggle();
-        $("#Functions .defbox").toggle();
+  $("#functions").click(function() {
+        $("#functions .term").toggle();
+        $("#functions .defbox").toggle();
   });
 
-  $("#Methods").click(function() {
-        $("#Methods .term").toggle();
-        $("#Methods .defbox").toggle();
+  $("#methods").click(function() {
+        $("#methods .term").toggle();
+        $("#methods .defbox").toggle();
   });
 
-  $("#Arguments").click(function() {
-        $("#Arguments .term").toggle();
-        $("#Arguments .defbox").toggle();
+  $("#arguments").click(function() {
+        $("#arguments .term").toggle();
+        $("#arguments .defbox").toggle();
   });
-  $("#Parameters").click(function() {
-        $("#Parameters .term").toggle();
-        $("#Parameters .defbox").toggle();
+  $("#parameters").click(function() {
+        $("#parameters .term").toggle();
+        $("#parameters .defbox").toggle();
   });
 });
